@@ -5,13 +5,13 @@
  *
  * @author Elmira
  */
-class main extends controller{
+class main extends controller {
+
     //put your code here
-    
-    public function index(){
+
+    public function index() {
         $data['text'] = "Hello Pet";
         load::view("main/index", $data);
     }
-    
-    
+
 }
